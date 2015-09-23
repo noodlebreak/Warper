@@ -28,9 +28,11 @@ class Warper:
     left_image = []     # Stores 4 points(x,y) of the logo image. Here the four points are 4 corners of image.
     right_image = []    # stores 4 points that the user clicks(mouse left click) in the main image.
 
-    gray = None
-    gray_inv = None
-    src1final, src2final = None, None
+    gray = None  # This will hold the grayscale binarized image of the warped overlay image
+    gray_inv = None  # This will hold the inverse of the `gray` image
+
+    src1final = None  # This will hold the result of masking the main image with `gray_inv`
+    src2final = None  # This will hold the result of masking warped overlay image with `gray`
 
     SAVE_TRANSITIONS = False
 
