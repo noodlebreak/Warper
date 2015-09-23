@@ -1,6 +1,6 @@
 # Warper - Warp images and display the warped in the corners selected.
 
-ABOUT:
+About:
 ======
 This is the Python version of the code here:
     https://github.com/ramsrigouthamg/codes_public/tree/master/opencv/homography
