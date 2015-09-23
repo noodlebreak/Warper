@@ -1,5 +1,17 @@
-# Warper
-Warp images and display the warped in the corners selected.
+# Warper - Warp images and display the warped in the corners selected.
+
+ABOUT:
+======
+This is the Python version of the code here:
+    https://github.com/ramsrigouthamg/codes_public/tree/master/opencv/homography
+
+Which is explained here:
+    http://ramsrigoutham.com/2014/06/14/perspective-projection-with-homography-opencv/
+
+Nothing extra going on in here.
+Except for the save_transitions part, which saves images to visualize and better understand
+the process.
+
 
 Requirements:
 -------------
