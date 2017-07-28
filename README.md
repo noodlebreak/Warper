@@ -10,6 +10,8 @@ Which is explained here:
 
     http://ramsrigoutham.com/2014/06/14/perspective-projection-with-homography-opencv/
 
+[Explanation with image here](http://imgur.com/a/yiF55)
+
 Nothing extra going on in here.
 Except for the save_transitions part, which saves images to visualize and better understand
 the process.
